@@ -1,0 +1,10 @@
+\chapter{Literature Review}
+
+\section{Legged}
+
+Reinforcement learning has been used to learn walking gaits that are robust to rough terrain \cite{lee_learning_2020}.
+
+
+\section{Sim-to-Real}
+
+Sim-to-real learning is a relatively new area of research, which concerns bridging the gap between simulation and reality. There are cases where skills learned in simulation can be transferred to real robots \cite{neunert_why_2016, kaspar_sim2real_2020}, but this requires detailed knowledge of the robot's dynamics and well matched simulation models. Other methods of sim-to-real transfer include adding random noise to the dynamics \cite{peng_sim--real_2018,zhao_sim--real_2020} and the inputs \cite{lee_robust_2019}. One paper addressed the reality gap by using deep RL to generate foot trajectories while using classical methods (e.g. PID control) to track these trajectories.  More research into these techniques is required to fully understand the effects on the learned policy \cite{zhao_sim--real_2020}. 
